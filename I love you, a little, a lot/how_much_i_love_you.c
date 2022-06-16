@@ -1,7 +1,7 @@
 #include <stddef.h>
 
 const char* how_much_i_love_you(int nb_petals) {
-  
+    
  const char *a[6];
 
 
@@ -20,3 +20,8 @@ const char* how_much_i_love_you(int nb_petals) {
     // This is Modular arithmetic and allows us to wrap around when the indexing exceeds the array limits
  
 }
+
+int main(){
+
+    how_much_i_love_you(7);
+};
